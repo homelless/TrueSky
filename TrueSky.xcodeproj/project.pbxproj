@@ -6,30 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D03EDCC92E435A0800A9E2B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCBD2E435A0800A9E2B8 /* AppDelegate.swift */; };
+		D03EDCCA2E435A0800A9E2B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCC42E435A0800A9E2B8 /* SceneDelegate.swift */; };
+		D03EDCCB2E435A0800A9E2B8 /* TrueSky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCC52E435A0800A9E2B8 /* TrueSky.xcdatamodeld */; };
+		D03EDCCD2E435A0800A9E2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03EDCBE2E435A0800A9E2B8 /* Assets.xcassets */; };
+		D03EDCCF2E435A0800A9E2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03EDCC12E435A0800A9E2B8 /* LaunchScreen.storyboard */; };
+		D03EDCD02E435A0800A9E2B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03EDCC32E435A0800A9E2B8 /* Main.storyboard */; };
+		D03EDCD92E436A4200A9E2B8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCD82E436A4200A9E2B8 /* WeatherData.swift */; };
+		D03EDCDD2E436A8400A9E2B8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCDC2E436A8400A9E2B8 /* Location.swift */; };
+		D03EDCDF2E436ABA00A9E2B8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCDE2E436ABA00A9E2B8 /* WeatherViewController.swift */; };
+		D03EDCE32E436AF900A9E2B8 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCE22E436AF900A9E2B8 /* Cells.swift */; };
+		D03EDCE62E436B2200A9E2B8 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCE52E436B2200A9E2B8 /* WeatherViewModel.swift */; };
+		D03EDCE82E436B3D00A9E2B8 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCE72E436B3D00A9E2B8 /* LocationViewModel.swift */; };
+		D03EDCEA2E436B5B00A9E2B8 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCE92E436B5B00A9E2B8 /* WeatherService.swift */; };
+		D03EDCEC2E436B7000A9E2B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCEB2E436B7000A9E2B8 /* APIClient.swift */; };
+		D03EDCEF2E436BCF00A9E2B8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCEE2E436BCF00A9E2B8 /* Extensions.swift */; };
+		D03EDCF12E436BE100A9E2B8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EDCF02E436BE100A9E2B8 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D03EDCA22E435A0100A9E2B8 /* TrueSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03EDCBD2E435A0800A9E2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03EDCBE2E435A0800A9E2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03EDCBF2E435A0800A9E2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03EDCC02E435A0800A9E2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03EDCC22E435A0800A9E2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03EDCC42E435A0800A9E2B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D03EDCC82E435A0800A9E2B8 /* TrueSky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrueSky.xcdatamodel; sourceTree = "<group>"; };
+		D03EDCD82E436A4200A9E2B8 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		D03EDCDC2E436A8400A9E2B8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D03EDCDE2E436ABA00A9E2B8 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		D03EDCE22E436AF900A9E2B8 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		D03EDCE52E436B2200A9E2B8 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		D03EDCE72E436B3D00A9E2B8 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		D03EDCE92E436B5B00A9E2B8 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		D03EDCEB2E436B7000A9E2B8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D03EDCEE2E436BCF00A9E2B8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D03EDCF02E436BE100A9E2B8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D03EDCB72E435A0300A9E2B8 /* Exceptions for "TrueSky" folder in "TrueSky" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D03EDCA12E435A0100A9E2B8 /* TrueSky */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D03EDCA42E435A0100A9E2B8 /* TrueSky */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D03EDCB72E435A0300A9E2B8 /* Exceptions for "TrueSky" folder in "TrueSky" target */,
-			);
-			path = TrueSky;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D03EDC9F2E435A0100A9E2B8 /* Frameworks */ = {
@@ -45,7 +60,7 @@
 		D03EDC992E435A0100A9E2B8 = {
 			isa = PBXGroup;
 			children = (
-				D03EDCA42E435A0100A9E2B8 /* TrueSky */,
+				D03EDCC72E435A0800A9E2B8 /* TrueSky */,
 				D03EDCA32E435A0100A9E2B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +71,86 @@
 				D03EDCA22E435A0100A9E2B8 /* TrueSky.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D03EDCC72E435A0800A9E2B8 /* TrueSky */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCD72E436A1300A9E2B8 /* Network */,
+				D03EDCD62E435B0C00A9E2B8 /* ViewModels */,
+				D03EDCD42E435A4A00A9E2B8 /* Views */,
+				D03EDCD22E435A2D00A9E2B8 /* Models */,
+				D03EDCD32E435A4300A9E2B8 /* Delegates */,
+				D03EDCD12E435A0E00A9E2B8 /* Utilities */,
+				D03EDCED2E436B7F00A9E2B8 /* Resources */,
+			);
+			path = TrueSky;
+			sourceTree = "<group>";
+		};
+		D03EDCD12E435A0E00A9E2B8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCBF2E435A0800A9E2B8 /* Info.plist */,
+				D03EDCEE2E436BCF00A9E2B8 /* Extensions.swift */,
+				D03EDCF02E436BE100A9E2B8 /* LocationManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D03EDCD22E435A2D00A9E2B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCD82E436A4200A9E2B8 /* WeatherData.swift */,
+				D03EDCDC2E436A8400A9E2B8 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D03EDCD32E435A4300A9E2B8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCBD2E435A0800A9E2B8 /* AppDelegate.swift */,
+				D03EDCC42E435A0800A9E2B8 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D03EDCD42E435A4A00A9E2B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCC32E435A0800A9E2B8 /* Main.storyboard */,
+				D03EDCDE2E436ABA00A9E2B8 /* WeatherViewController.swift */,
+				D03EDCE22E436AF900A9E2B8 /* Cells.swift */,
+				D03EDCC12E435A0800A9E2B8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D03EDCD62E435B0C00A9E2B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCE52E436B2200A9E2B8 /* WeatherViewModel.swift */,
+				D03EDCE72E436B3D00A9E2B8 /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D03EDCD72E436A1300A9E2B8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCE92E436B5B00A9E2B8 /* WeatherService.swift */,
+				D03EDCEB2E436B7000A9E2B8 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D03EDCED2E436B7F00A9E2B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D03EDCBE2E435A0800A9E2B8 /* Assets.xcassets */,
+				D03EDCC52E435A0800A9E2B8 /* TrueSky.xcdatamodeld */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +167,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D03EDCA42E435A0100A9E2B8 /* TrueSky */,
 			);
 			name = TrueSky;
 			packageProductDependencies = (
@@ -122,6 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03EDCCD2E435A0800A9E2B8 /* Assets.xcassets in Resources */,
+				D03EDCCF2E435A0800A9E2B8 /* LaunchScreen.storyboard in Resources */,
+				D03EDCD02E435A0800A9E2B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +227,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03EDCC92E435A0800A9E2B8 /* AppDelegate.swift in Sources */,
+				D03EDCE62E436B2200A9E2B8 /* WeatherViewModel.swift in Sources */,
+				D03EDCEA2E436B5B00A9E2B8 /* WeatherService.swift in Sources */,
+				D03EDCE32E436AF900A9E2B8 /* Cells.swift in Sources */,
+				D03EDCE82E436B3D00A9E2B8 /* LocationViewModel.swift in Sources */,
+				D03EDCDF2E436ABA00A9E2B8 /* WeatherViewController.swift in Sources */,
+				D03EDCD92E436A4200A9E2B8 /* WeatherData.swift in Sources */,
+				D03EDCDD2E436A8400A9E2B8 /* Location.swift in Sources */,
+				D03EDCEF2E436BCF00A9E2B8 /* Extensions.swift in Sources */,
+				D03EDCCA2E435A0800A9E2B8 /* SceneDelegate.swift in Sources */,
+				D03EDCF12E436BE100A9E2B8 /* LocationManager.swift in Sources */,
+				D03EDCCB2E435A0800A9E2B8 /* TrueSky.xcdatamodeld in Sources */,
+				D03EDCEC2E436B7000A9E2B8 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03EDCC12E435A0800A9E2B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03EDCC02E435A0800A9E2B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D03EDCC32E435A0800A9E2B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03EDCC22E435A0800A9E2B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D03EDCB92E435A0300A9E2B8 /* Debug */ = {
@@ -147,12 +274,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMFNSK27YT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrueSky/Info.plist;
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/Готовые мои проекты/TrueSky/TrueSky/Utilities/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -175,12 +303,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMFNSK27YT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrueSky/Info.plist;
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/Готовые мои проекты/TrueSky/TrueSky/Utilities/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +466,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D03EDCC52E435A0800A9E2B8 /* TrueSky.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D03EDCC82E435A0800A9E2B8 /* TrueSky.xcdatamodel */,
+			);
+			currentVersion = D03EDCC82E435A0800A9E2B8 /* TrueSky.xcdatamodel */;
+			path = TrueSky.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D03EDC9A2E435A0100A9E2B8 /* Project object */;
 }
